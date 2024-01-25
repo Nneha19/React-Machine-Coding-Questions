@@ -1,0 +1,38 @@
+:root{
+    --background:#ffffff;
+    --text-primary:#000;
+}
+
+.light {
+  background-color: var(--background);
+  color: var(--button-bg);
+  transition: all 0.8s;
+
+}
+
+.dark {
+  background-color: #000;
+  color: #ffffff;
+  transition: all 0.8s;
+
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+#container button{
+    width: 180px;
+    background-color:#E65300;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    height: 30px;
+}

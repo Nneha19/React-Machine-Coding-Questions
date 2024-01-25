@@ -1,0 +1,22 @@
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: yellowgreen;
+}
+.like{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 8%;
+    display: flex;
+    gap: 8px;
+}
+.active{
+    color: red;
+
+}
