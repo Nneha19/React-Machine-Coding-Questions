@@ -1,0 +1,40 @@
+.traffic-container{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+
+
+.main-board{
+border: 1px solid white;
+    height: 280px;
+    width: 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.circle{
+    background-color: gray;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}

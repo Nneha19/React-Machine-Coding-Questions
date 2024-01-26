@@ -93,6 +93,7 @@ function App() {
     {/* Traffic Light */}
     <TrafficLight/>
 
+    {/* Carousal */}
 
   </>
   )
