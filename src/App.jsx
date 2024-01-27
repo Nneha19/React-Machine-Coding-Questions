@@ -34,6 +34,7 @@ import Tab1 from "./components/React-Router/tab1";
 import Tab2 from "./components/React-Router/tab2";
 import Tab3 from "./components/React-Router/tab3";
 import Home from "./components/React-Router/Home";
+import ReactRedux from "./components/React-Redux";
 
 function App() {
   return (
@@ -107,7 +108,7 @@ function App() {
       {/*<Pagination/>*/}
 
       {/*Router*/}
-      {/* <Routes>
+       {/*<Routes>
         <Route path="/" element={<RouterTab />}>
           <Route index element={<Home />} />
           <Route path="Tab1" element={<Tab1 />} />
@@ -117,6 +118,8 @@ function App() {
        </Routes>*/}
 
       {/*Redux*/}
+      <ReactRedux/>
+
 
       {/*User Authentication*/}
     </>
