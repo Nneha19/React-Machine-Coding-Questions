@@ -25,6 +25,7 @@ import Calculator from './components/Calculator'
 import TrafficLight from './components/TrafficLight'
 import Carousal from './components/Carousal'
 import PasswordGenerator from './components/passwordgenerator'
+import Pagination from './components/pagination'
 
 function App() {
 
@@ -99,6 +100,9 @@ function App() {
     {/*<Carousal/>*/}
 
     {/* Pagination */}
+    <Pagination/>
+    
+       
     {/*Password Generator */}
 
 
