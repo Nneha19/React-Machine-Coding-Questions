@@ -1,0 +1,23 @@
+.router-main{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+    padding: 30px;
+}
+
+.router-container{
+    background-color: orangered;
+    padding: 20px;
+   
+}
+.navlink{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+.navlink:active{
+    color: black;
+}

@@ -1,113 +1,126 @@
-import './App.css'
-import OutsideClickTest from './components/OutsideClick/test'
-import SearchAutoComplete from './components/SearchAutoComplete'
-import Tree from './components/Tree'
-import Accordian from './components/accordian'
-import LightDarkMode from './components/light-darm-mode'
-import LoadData from './components/loadmore'
-import ModelTest from './components/modelpopup/model-test'
-import RandomColors from './components/randomcolor'
-import ScrollIndicator from './components/scrollindicator'
-import ScrollToSection from './components/scrolltopbottom'
-import menus from './components/Tree/data'
-import ScrollToTopAndBottom from './components/scrolltopbottom'
-import Starrating from './components/star-rating'
-import UseFetchHookTest from './components/useFetch/test'
-import InfiniteScroll from './components/infiniteScroll'
-import Progressbar from './components/progressbar'
-import Progressbartest from './components/progressbar/test'
-import Likebtn from './components/Likebutton'
-import Stopwatch from './components/Stopwatch'
-import Todo from './components/Todo'
-import TodoList from './components/Todo'
-import Table from './components/Table'
-import Calculator from './components/Calculator'
-import TrafficLight from './components/TrafficLight'
-import Carousal from './components/Carousal'
-import PasswordGenerator from './components/passwordgenerator'
-import Pagination from './components/pagination'
+import "./App.css";
+import OutsideClickTest from "./components/OutsideClick/test";
+import SearchAutoComplete from "./components/SearchAutoComplete";
+import Tree from "./components/Tree";
+import Accordian from "./components/accordian";
+import LightDarkMode from "./components/light-darm-mode";
+import LoadData from "./components/loadmore";
+import ModelTest from "./components/modelpopup/model-test";
+import RandomColors from "./components/randomcolor";
+import ScrollIndicator from "./components/scrollindicator";
+import ScrollToSection from "./components/scrolltopbottom";
+import menus from "./components/Tree/data";
+import ScrollToTopAndBottom from "./components/scrolltopbottom";
+import Starrating from "./components/star-rating";
+import UseFetchHookTest from "./components/useFetch/test";
+import InfiniteScroll from "./components/infiniteScroll";
+import Progressbar from "./components/progressbar";
+import Progressbartest from "./components/progressbar/test";
+import Likebtn from "./components/Likebutton";
+import Stopwatch from "./components/Stopwatch";
+import Todo from "./components/Todo";
+import TodoList from "./components/Todo";
+import Table from "./components/Table";
+import Calculator from "./components/Calculator";
+import TrafficLight from "./components/TrafficLight";
+import Carousal from "./components/Carousal";
+import PasswordGenerator from "./components/passwordgenerator";
+import Pagination from "./components/pagination";
+
+import { Routes, Route } from "react-router-dom";
+
+import RouterTab from "./components/React-Router";
+import Tab1 from "./components/React-Router/tab1";
+import Tab2 from "./components/React-Router/tab2";
+import Tab3 from "./components/React-Router/tab3";
+import Home from "./components/React-Router/Home";
 
 function App() {
-
   return (
     <>
-     {/*Components*/}
+      {/*Components*/}
 
-     {/*Light Dark Mode*/}
-     {/*<LightDarkMode/>*/}
+      {/*Light Dark Mode*/}
+      {/*<LightDarkMode/>*/}
 
-     {/*Star Ratings */}
-     {/* <Starrating/>*/} 
+      {/*Star Ratings */}
+      {/* <Starrating/>*/}
 
-     {/* Accordian */}
-     {/* <Accordian/>*/}
+      {/* Accordian */}
+      {/* <Accordian/>*/}
 
-     {/* Load More */}
-     {/* <LoadData/>*/}
+      {/* Load More */}
+      {/* <LoadData/>*/}
 
-     {/* Random Colors */}
-     {/* <RandomColors/>*/}
+      {/* Random Colors */}
+      {/* <RandomColors/>*/}
 
-     {/* Search AutoComplete with Api */}
-     {/*<SearchAutoComplete/> */}
+      {/* Search AutoComplete with Api */}
+      {/*<SearchAutoComplete/> */}
 
-     {/* OutSideClick */}
-     {/* <OutsideClickTest/> */}
-   
+      {/* OutSideClick */}
+      {/* <OutsideClickTest/> */}
 
-    {/* USe Fetch Hook */}
-    {/*<UseFetchHookTest/>*/}
-    
-    {/* Model popup */}
-   {/* <ModelTest/>*/}
-    
-    {/*Scrollindicator */}
-    {/*<ScrollIndicator url={'https://dummyjson.com/products'}/>*/}
+      {/* USe Fetch Hook */}
+      {/*<UseFetchHookTest/>*/}
 
-    {/*Scrolltoptobottom */} 
-    {/*<ScrollToSection/>*/}
+      {/* Model popup */}
+      {/* <ModelTest/>*/}
 
+      {/*Scrollindicator */}
+      {/*<ScrollIndicator url={'https://dummyjson.com/products'}/>*/}
 
-    {/* Tree */}
-    {/*<Tree menus={menus}/>*/}
+      {/*Scrolltoptobottom */}
+      {/*<ScrollToSection/>*/}
 
-    {/* Infinite Scroll */}
-    {/*<InfiniteScroll/>*/}
+      {/* Tree */}
+      {/*<Tree menus={menus}/>*/}
 
-    {/* Progress Bar */}
-    {/*<Progressbartest/>*/}
+      {/* Infinite Scroll */}
+      {/*<InfiniteScroll/>*/}
 
-    {/* Like Button */}
-    {/*<Likebtn/>*/}
+      {/* Progress Bar */}
+      {/*<Progressbartest/>*/}
 
-    {/*Stop Watch */}
-    {/*<Stopwatch/>*/}
+      {/* Like Button */}
+      {/*<Likebtn/>*/}
 
-    {/*To do  */}
-    {/*<TodoList/> */}
-    {/*Router,Redux,Otp Login,password generator, pagination, */}
+      {/*Stop Watch */}
+      {/*<Stopwatch/>*/}
 
-    {/* Table */}
-    {/*<Table/> */}
+      {/*To do  */}
+      {/*<TodoList/> */}
 
-    {/* Calculator */}
-    {/*<Calculator/>*/}
+      {/* Table */}
+      {/*<Table/> */}
 
-    {/* Traffic Light */}
-    {/*<TrafficLight/>*/}
+      {/* Calculator */}
+      {/*<Calculator/>*/}
 
-    {/* Carousal */}
-    {/*<Carousal/>*/}
+      {/* Traffic Light */}
+      {/*<TrafficLight/>*/}
 
-    {/* Pagination */}
-    <Pagination/>
-    
-       
-    {/*Password Generator */}
+      {/* Carousal */}
+      {/*<Carousal/>*/}
 
+      {/* Pagination */}
+      {/*<Pagination/>*/}
 
-  </>
-  )
+      {/*Router*/}
+      {/* <Routes>
+        <Route path="/" element={<RouterTab />}>
+          <Route index element={<Home />} />
+          <Route path="Tab1" element={<Tab1 />} />
+          <Route path="Tab2" element={<Tab2 />} />
+          <Route path="Tab3" element={<Tab3 />} />
+        </Route>
+       </Routes>*/}
+
+      {/*Redux*/}
+
+      {/*User Authentication*/}
+    </>
+  );
 }
 
-export default App
+export default App;
