@@ -23,6 +23,8 @@ import TodoList from './components/Todo'
 import Table from './components/Table'
 import Calculator from './components/Calculator'
 import TrafficLight from './components/TrafficLight'
+import Carousal from './components/Carousal'
+import PasswordGenerator from './components/passwordgenerator'
 
 function App() {
 
@@ -82,7 +84,7 @@ function App() {
 
     {/*To do  */}
     {/*<TodoList/> */}
-    {/*Router,Redux,Otp Login,password generator, Carousal,pagination, */}
+    {/*Router,Redux,Otp Login,password generator, pagination, */}
 
     {/* Table */}
     {/*<Table/> */}
@@ -91,9 +93,14 @@ function App() {
     {/*<Calculator/>*/}
 
     {/* Traffic Light */}
-    <TrafficLight/>
+    {/*<TrafficLight/>*/}
 
     {/* Carousal */}
+    {/*<Carousal/>*/}
+
+    {/* Pagination */}
+    {/*Password Generator */}
+
 
   </>
   )
