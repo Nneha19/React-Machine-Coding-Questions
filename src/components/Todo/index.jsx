@@ -52,13 +52,19 @@ function TodoList() {
     <div className="main">
       <h1>Todo List</h1>
 
-      <form>
-        <input type="text" value={inputValue} onChange={handleChange} />
+      <form className="main-form">
+        <input type="text" value={inputValue} onChange={handleChange} style={{
+            color: "white",
+            outline: "none",
+            border: "none",
+            fontSize: "20px",
+            borderBottom: "1px solid white",
+        }}/>
         <button onClick={handleSubmit}>Add Todo</button>
       </form>
-      <ul>
+      <ul className="todo-ul">
         {todos.map((todo, index) => (
-          <li key={index}>
+          <li key={index} className="todos-li">
             {status[index] && find[index] ? (
               <LuCheckCircle
                 style={{ height: "51px", width: "37px", cursor: "pointer" }}
@@ -71,7 +77,7 @@ function TodoList() {
               />
             )}
 
-            <span >{todo}</span>
+            <span  className="todos-span">{todo}</span>
             <button onClick={() => handleDelete(index)}>Delete</button>
           </li>
         ))}

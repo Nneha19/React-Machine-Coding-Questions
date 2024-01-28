@@ -7,7 +7,7 @@ export default function UseFetchHookTest() {
   );
 
   return (
-    <div>
+    <div style={{margin:'10px'}}>
       <h1>Use Fetch Hook</h1>
       {pending ? <h3>Pending ! Please wait</h3> : null}
       {error ? <h3>{error}</h3> : null}

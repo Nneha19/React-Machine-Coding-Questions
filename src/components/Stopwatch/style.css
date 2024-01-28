@@ -1,6 +1,8 @@
-body {
+.stopwatch-container{
     background-color: #000;
+    height: 100vh;
 }
+
 
 .stopwatch-time {
     text-align: center;

@@ -21,7 +21,7 @@
 
 
         return(
-            <div id="container">
+            <div id="container" style={{backgroundColor:'white'}}>
             {
             [...Array(noofStars)].map((stars,index)=>{
                 index+=1;

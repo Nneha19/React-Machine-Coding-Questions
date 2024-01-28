@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import './style.css'
 
 export default function InfiniteScroll() {
   const [Loading, setLoading] = useState(true);
@@ -42,11 +41,13 @@ export default function InfiniteScroll() {
   }, [count]);
 
   if (Loading) {
-    <div>Loading Data...</div>;
+    <div style={{
+      color:'black'
+    }}>Loading Data...</div>;
   }
 
   return (
-    <div>
+    <div style={{ color:'black'}}>
       {products && products.length
         ? products.map((items) => (
           <div className="product">

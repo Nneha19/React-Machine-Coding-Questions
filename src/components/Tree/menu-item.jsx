@@ -12,8 +12,16 @@ export default function MenuItem({item}){
 
     }
 
-    return <li >
-     <div className="menu-item-container">
+    return <li className="menu-li" >
+     <div className="menu-item-container"
+     style={{
+        display: 'flex',
+        gap:'5px',
+        listStyle: 'none',
+        marginTop: '0px',
+        marginBottom: '0px',
+    
+     }}>
      <p>{item.label}</p>
      {
         item && item.children && item.children.length ? <span 

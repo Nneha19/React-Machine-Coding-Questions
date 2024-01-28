@@ -13,7 +13,7 @@ export default function LightDarkMode(){
    return( 
    <div className={Theme } id="container" >
     <div className="lightdarkmode"><h2>Light Dark Mode</h2>
-    <button onClick={changeMode} className={Theme}>Turn the world {Theme==='dark'?'☀️':'🌒'}!</button>
+    <button id='themebtn' onClick={changeMode} className={Theme}>Turn the world {Theme==='dark'?'☀️':'🌒'}!</button>
     </div>
     </div>
    )

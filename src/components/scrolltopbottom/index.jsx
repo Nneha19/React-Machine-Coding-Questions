@@ -58,13 +58,13 @@ export default function ScrollToSection() {
   return (
     <div>
       <h1>Scroll to a particular section</h1>
-      <button onClick={handleScrollToSection}>Click To Scroll</button>
+      <button onClick={handleScrollToSection} style={{backgroundColor:'yellow'}}>Click To Scroll</button>
       {data.map((dataItem, index) => (
         <div ref={index === 2 ? ref : null} style={dataItem.style}>
           <h3>{dataItem.label}</h3>
         </div>
       ))}
-      <button onClick={handleScrollToSection}>Click To Top</button>
+      <button onClick={handleScrollToSection} style={{backgroundColor:'yellow'}}>Click To Top</button>
 
     </div>
   );

@@ -60,7 +60,7 @@ export default function ScrollIndicator({ url }){
   }
 
   if (loading) {
-    return <div>Loading data ! Pleaae wait</div>;
+    return <div style={{padding:'10px'}}>Loading data ! Please wait</div>;
   }
 
     return(

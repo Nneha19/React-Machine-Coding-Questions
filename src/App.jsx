@@ -42,22 +42,22 @@ function App() {
       {/*Components*/}
 
       {/*Light Dark Mode*/}
-      {/*<LightDarkMode/>*/}
-
+      {/*<LightDarkMode/>
+       */}
       {/*Star Ratings */}
-      {/* <Starrating/>*/}
+      {/* <Starrating/> */}
 
       {/* Accordian */}
-      {/* <Accordian/>*/}
+      {/*<Accordian/>  */}
 
       {/* Load More */}
-      {/* <LoadData/>*/}
+      {/* <LoadData/>  */}
 
       {/* Random Colors */}
-      {/* <RandomColors/>*/}
+      {/*<RandomColors/>*/}
 
       {/* Search AutoComplete with Api */}
-      {/*<SearchAutoComplete/> */}
+      {/*<SearchAutoComplete/>*/}
 
       {/* OutSideClick */}
       {/* <OutsideClickTest/> */}
@@ -66,7 +66,7 @@ function App() {
       {/*<UseFetchHookTest/>*/}
 
       {/* Model popup */}
-      {/* <ModelTest/>*/}
+      {/*<ModelTest/>*/}
 
       {/*Scrollindicator */}
       {/*<ScrollIndicator url={'https://dummyjson.com/products'}/>*/}
@@ -100,7 +100,7 @@ function App() {
 
       {/* Traffic Light */}
       {/*<TrafficLight/>*/}
-
+      
       {/* Carousal */}
       {/*<Carousal/>*/}
 
@@ -108,20 +108,17 @@ function App() {
       {/*<Pagination/>*/}
 
       {/*Router*/}
-       {/*<Routes>
+      {/*<Routes>
         <Route path="/" element={<RouterTab />}>
           <Route index element={<Home />} />
           <Route path="Tab1" element={<Tab1 />} />
           <Route path="Tab2" element={<Tab2 />} />
           <Route path="Tab3" element={<Tab3 />} />
         </Route>
-       </Routes>*/}
+      </Routes>*/}
 
       {/*Redux*/}
-      <ReactRedux/>
-
-
-      {/*User Authentication*/}
+      {/* <ReactRedux/>*/}
     </>
   );
 }

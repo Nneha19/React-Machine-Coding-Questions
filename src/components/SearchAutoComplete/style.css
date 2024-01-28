@@ -1,0 +1,14 @@
+.search-autocomplete-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+    height: 100vh;
+}
+.search-autocomplete-container input{
+    background-color: aliceblue;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+}

@@ -4,7 +4,7 @@ import './style.css'
 
 export default function LoadData(){
 
-    const [loading,setloading]=useState(false);
+    const [loading,setloading]=useState(true);
     const [products,setproducts] = useState([]);
     const [count,setCount]= useState(0);
 
@@ -35,7 +35,7 @@ if(loading){
     return <div>Loading Data!</div>
 }
 
-return <div className="main-container">
+return <div className="loadmore-main-container">
     <div className="product-container">
         {
             products&& products.length?
@@ -47,7 +47,7 @@ return <div className="main-container">
             )):null
         }
         <div className="button-container">
-            <button onClick={()=>setCount(count+1)}>
+            <button style={{backgroundColor:'gray'}} onClick={()=>setCount(count+1)}>
                 Load More Products
             </button>
         </div>
